@@ -1,0 +1,11 @@
+---
+title: "Brand 1"
+layout: 'baseArt.njk'
+---
+<h1 class="Titulo">NutriHair</h1>
+
+<ul role="list" class="articles__list">
+    {%- for post in collections.NutriHair | reverse -%}
+    {% include 'snippet.njk' %}
+    {%- endfor -%}
+</ul>

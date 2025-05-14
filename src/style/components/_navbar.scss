@@ -1,0 +1,70 @@
+@media screen and (min-width: 750px) {
+    header {
+        .navbar{
+            .checkbox{
+                display: none;
+            }
+            .close {
+                display:none;
+            }
+            .burger {
+                display: none;
+            }
+            .burgerMenu{ 
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    header {
+        .navbar{
+            display: flex;
+            flex-direction: column;
+            .checkbox{
+                width: 32px;
+                height: 32px;
+                position: absolute;
+                top: 30px;
+                right: 28px;
+                opacity: 0;
+            }
+            .close{
+                display: none;
+                width: 32px;
+                height: 32px;
+                position: absolute;
+                top: 32px;
+                right: 30px;
+                pointer-events: none;
+            }
+            .burger{
+                width: 32px;
+                height: 32px;
+                position: absolute;
+                top: 32px;
+                right: 30px;
+                pointer-events: none;
+            }
+            .headLinks{
+                display: none;
+            }
+            .burgerMenu{
+                display: none;
+                flex-direction: column;
+                align-items: center;
+            }
+            .checkbox:checked ~ .burger{
+                display: none;
+            }
+            .checkbox:checked ~ .burgerMenu{
+                display: flex;
+            }
+            .checkbox:checked ~ .close{
+                display: flex;
+            }
+        }
+    }
+}
+

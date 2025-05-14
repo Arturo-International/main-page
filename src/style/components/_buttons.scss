@@ -1,0 +1,61 @@
+button{
+    padding: 0.6em;
+    margin: 0.4em;
+    border-radius: 10px;
+    font-size: 1.15em;
+    transition: 0.3s;
+  }
+  
+  a{
+    padding: 0.6em;
+    margin: 0;
+    text-decoration: none;
+  }
+  
+  .main{
+    background-color: var(--color-300);
+    border: solid 3px var(--color-100);
+    transition: 0.3s;
+  }
+  .main a{
+    color: var(--color-100);
+  }
+  
+  .main:hover{
+    background-color: var(--color-200);
+    border: 3px solid var(--white);
+  }
+  .main a:hover{
+    color: var(--white);
+  }
+  
+  .secondary{
+    background-color: var(--white);
+    border: solid 3px var(--gray);
+    transition: 0.3s;
+  }
+  .secondary a{
+    color: var(--gray);
+  }
+  
+  .secondary:hover{
+    background-color: var(--gray);
+    border: solid 3px var(--white);
+    transition: 0.3s;
+  }
+  .secondary a:hover{
+    color: var(--white);
+  }
+
+  button:hover{
+    background-color: var(--color-200);
+    color: var(--white);
+    svg{
+      fill: var(--white);
+  }
+  }
+  svg{
+    fill: var(--black);
+    transition: 0.3s;
+  }
+  

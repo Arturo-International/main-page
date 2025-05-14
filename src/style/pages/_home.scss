@@ -1,0 +1,72 @@
+.allcentered{
+    display: grid;
+    justify-items: center;
+    .homeTitles{
+        padding: 2em;
+    }
+    .sections{
+        padding: 1em;
+        display: flex;
+        flex-direction: row;
+        gap: 1.5em;
+        .bigCategories{
+            justify-items: center;
+            width: 35ch;
+            padding: 2.5em;
+            .buttontextcentered{
+                text-align: center;
+                font-size: 2.5em;
+            }
+        }
+        .bigBrands{
+            justify-items: center;
+            width: 35ch;
+            padding: 2.5em;
+            .buttontextcentered{
+                text-align: center;
+                font-size: 2.5em;
+            }
+        }
+    }
+}
+.Featured{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.articles__list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 1.2em;
+}
+
+@media screen and (max-width: 1420px) {
+    .articles__list{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .articles__list{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media screen and (max-width: 685px) {
+    .articles__list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .allcentered { 
+        .sections{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

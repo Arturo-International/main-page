@@ -1,0 +1,25 @@
+@use 'components/header';
+@use 'components/footer';
+@use 'components/snippet';
+@use 'components/buttons';
+@use 'assets/reset';
+@use 'pages/home';
+@use 'pages/cat';
+@use 'pages/articles';
+@use 'assets/typography';
+@use 'components/tintSelector';
+@use 'pages/cart';
+@use 'components/navbar';
+
+html{
+    font-family: var(--ff-body);
+    main{
+        margin-bottom: 5em;
+    }
+}
+h1{
+    font-family: var(--ff-heading);
+}
+h2{
+    font-family: var(--ff-subheading);
+}

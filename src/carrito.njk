@@ -1,0 +1,30 @@
+---
+title: "carrito"
+layout: 'baseArt.njk'
+---
+<div class="tableshopcart">
+<h1> Carrito de Compras </h1>
+<table>
+    <thead>
+        <tr>
+            <th>Producto</th>
+            <th>Variante</th>
+            <th>Precio</th>
+            <th>Cantidad</th>
+            <th>Eliminar</th>
+        </tr>
+    </thead>
+    <tbody id="listCart">
+        <!--JS product list here-->
+    </tbody>
+</table>
+</div>
+<p> Total: $<span id="total">0</span></p>
+<button id="empty-cart">Vaciar Carrito</button>
+
+<h2 class="subheadingcart"> Realizar orden </h2>
+<form id="form-mail">
+    <input type="email" id="userMail" required>
+    <button type="submit"> Enviar Orden </button>
+</form> 
+<p>Costos por entrega no incluidos</p>

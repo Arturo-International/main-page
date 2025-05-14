@@ -1,0 +1,11 @@
+---
+title: "Shampoo y mascarilla"
+layout: 'baseArt.njk'
+---
+<h1 class="Titulo">Shampoo y mascarilla</h1>
+
+<ul role="list" class="articles__list">
+    {%- for post in collections.shmk | reverse -%}
+    {% include 'snippet.njk' %}
+    {%- endfor -%}
+</ul>

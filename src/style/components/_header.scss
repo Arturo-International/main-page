@@ -1,0 +1,28 @@
+@use '../assets/variables';
+
+header{
+    background-color: var(--color-250);
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        padding: 1.5em;
+        justify-content: space-between;
+        .headLinks{
+            display: flex;
+            flex-direction: row;
+            font-size: 1.25em;
+            padding: 0.75em;
+            justify-content: space-between;
+            gap: 1em;
+            a{
+                text-decoration: none;
+                transition: 0.3s
+            }
+            .HeaderLink:hover{
+                background-color: var(--color-200);
+                color: var(--white);
+                border-radius: 10px;
+            }
+        }
+    }
+}
