@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style/input.css">
+    <script src="../../script/app.js"></script>
+    <title>carrito</title>
+    
+</head>
+<body>
+    <div id="page-container">
+        <div id="content-wrap">
+        <header>
+    <div class="navbar">
+        <div class="title">
+            <h1>Arturo International</h1>
+        </div>
+        <input class="checkbox" type="checkbox">
+        <img class="burger" src="https://res.cloudinary.com/dvoigkose/image/upload/v1746656728/menu_40dp_1F1F1F_FILL0_wght400_GRAD0_opsz40_ddvdo0.png">
+        <img class="close" src="https://res.cloudinary.com/dvoigkose/image/upload/v1746656728/close_40dp_1F1F1F_FILL0_wght400_GRAD0_opsz40_hzr6bm.png">
+        <div class="burgerMenu">
+            <a class="HeaderLink" href="/categories/index.html">Categories</a>
+            <a class="HeaderLink" href="/brands/index.html">Brands</a>
+            <a class="HeaderLink" href="/carrito/index.html">Carrito</a>
+        </div>
+        <div class="headLinks">
+            <a class="HeaderLink" href="/categories/index.html">Categories</a>
+            <a class="HeaderLink" href="/brands/index.html">Brands</a>
+            <a class="HeaderLink" href="/carrito/index.html">Carrito</a>
+        </div> 
+    </div>
+</header>
+        <main>
+            <div class="tableshopcart">
+<h1> Carrito de Compras </h1>
+<table>
+    <thead>
+        <tr>
+            <th>Producto</th>
+            <th>Variante</th>
+            <th>Precio</th>
+            <th>Cantidad</th>
+            <th>Eliminar</th>
+        </tr>
+    </thead>
+    <tbody id="listCart">
+        <!--JS product list here-->
+    </tbody>
+</table>
+</div>
+<p> Total: $<span id="total">0</span></p>
+<button id="empty-cart">Vaciar Carrito</button>
+
+<h2 class="subheadingcart"> Realizar orden </h2>
+<form id="form-mail">
+    <input type="email" id="userMail" required>
+    <button type="submit"> Enviar Orden </button>
+</form> 
+<p>Costos por entrega no incluidos</p>
+        </main>
+        <footer>
+    <div class="footTitle">
+        <h2>Arturo International</h2>
+    </div>
+    <Ul class="footLinks">
+        <li><a href="/categories/index.html">Categories</a></li>
+        <li><a href="/brands/index.html">Brands</a></li>
+        <li><a href="/contact/index.html">Contact</a></li>
+    </Ul>
+    <p> &copy 2025, Arturo International</p>
+</footer>
+        </div>
+    </div>
+</body>
+</html>

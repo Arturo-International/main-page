@@ -1,0 +1,11 @@
+---
+title: "Tintes"
+layout: 'baseArt.njk'
+---
+<h1 class="Titulo">Tintes</h1>
+
+<ul role="list" class="articles__list">
+    {%- for post in collections.tintes | reverse -%}
+    {% include 'snippet.njk' %}
+    {%- endfor -%}
+</ul>

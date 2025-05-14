@@ -1,0 +1,37 @@
+.product{
+    border: 1px solid var(--black);
+    border-radius: 20px;
+    width: 300px;
+    height: 60ch;
+  }
+  
+  .product img{
+    border-radius: 20px 20px 0 0;
+    height: 300px;
+  }
+  
+  .info{
+    padding: 1.5em;
+    font-size: 0.8em;
+  }
+  
+  .tags{
+    display: flex;
+    flex-direction: row;
+    gap: 0.35em;
+  }
+  
+  .tags p{
+    background-color: var(--gray);
+    color: var(--white);
+    border-radius: 15px;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    font-size: 0.6em;
+  }
+  
+  .info h3{
+    font-size: 1.5em;
+  }

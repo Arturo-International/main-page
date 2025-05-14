@@ -1,0 +1,26 @@
+---
+layout: 'baseArt.njk'
+---
+
+<article class="main-article">
+    <div class="container container--narrow flow">
+        <div class="upper">
+            <figure class="main-article__figure">
+                <img src="{{ image }}" alt="{{imgAlt}}" srcset="{{ imageW600 }} 600w, {{ imageW300}} 300w" sizes="(max-width: 600px) 100vw 300px" width="1080" height="1080">
+                <figcaption>
+                    {{ imgAlt }}
+                </figcaption>
+            </figure>
+            <div class="sum">
+                <h1 class="article-title">
+                    {{ title }}
+                </h1>
+                <h2>{{ price }}</h2>
+                <br>
+                <div class="content">
+                    {{ content | safe }}
+                </div>
+            </div>
+        </div>
+    </div>
+</article>

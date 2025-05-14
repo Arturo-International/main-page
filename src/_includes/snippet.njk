@@ -1,0 +1,21 @@
+<li>
+  <article class="snippet">
+    <div class="product">
+    <img src="{{ post.date.image }}" srcset="{{ post.data.image | replace('upload/', 'upload/w_600/') }} 600w, {{ post.data.image | replace('upload/', 'upload/w_300/')}} 300w" sizes="(max-width: 600px) 100vw 300px" class="snippet__image" alt="{{ post.data.imageAlt}}" width="600" height="600">
+    <div class="info">
+        <div class="tags">
+        <p>Featured</p>
+        <p>Brand1</p>
+        <p>category1</p>
+        </div>
+        <h3>{{ post.data.title }}</h3>
+        <p>{{ post.data.price }}</p>
+    </div>
+    <button class="main">
+      <a href="{{ post.url }}">
+        More Info.
+      </a>
+    </button>
+    <div>
+  </article>
+</li>

@@ -1,0 +1,11 @@
+---
+title: "Anticaida"
+layout: 'baseArt.njk'
+---
+<h1 class="Titulo">Anticaida</h1>
+
+<ul role="list" class="articles__list">
+    {%- for post in collections.anticaida | reverse -%}
+    {% include 'snippet.njk' %}
+    {%- endfor -%}
+</ul>

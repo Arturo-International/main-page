@@ -1,0 +1,33 @@
+:root{
+    /*Colors*/
+    --black: hsl(0 0% 0%);
+    --color-100: hsl(248 40% 15%);
+    --color-200: hsl(248 40% 40%);
+    --color-250: hsla(248, 40%, 40%, 0.2);
+    --color-300: hsl(248 40% 65%);
+    --gray: hsl(0 0% 50%);
+    --white: hsl(0 0% 100%);
+
+    /*Typographies*/
+    --ff-heading: "Inknut Antiqua", serif;
+    --ff-subheading: "Fira Sans", sans-serif;
+    --ff-body: "Quicksand", sans-serif;
+
+    /*Font Sizes*/
+    --size-1: 1rem;
+    --size-2: 1.25rem;
+    --size-3: 1.5rem;
+    --size-4: 1.75rem;
+    --size-5: 2rem;
+    --heads: 3rem;
+}
+
+@media screen and (min-width: 1040px){
+    :root{
+        --size-1: 1.25rem;
+        --size-2: 1.5rem;
+        --size-3: 1.75rem;
+        --size-4: 2rem;
+        --size-5: 2.25rem;
+    }
+}

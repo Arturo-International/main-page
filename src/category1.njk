@@ -1,0 +1,11 @@
+---
+title: "Tratamientos y cremas para peinar"
+layout: 'baseArt.njk'
+---
+<h1 class="Titulo">Tratamientos y cremas para peinar</h1>
+
+<ul role="list" class="articles__list">
+    {%- for post in collections.tratamiento | reverse -%}
+    {% include 'snippet.njk' %}
+    {%- endfor -%}
+</ul>
