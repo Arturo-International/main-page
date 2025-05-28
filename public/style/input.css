@@ -590,7 +590,7 @@ html {
   font-family: var(--ff-body);
 }
 html main {
-  margin-bottom: 3em 3em 5em 3em;
+  margin: 3em 3em 5em 3em;
 }
 
 h1 {
